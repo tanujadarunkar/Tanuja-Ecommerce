@@ -1,6 +1,6 @@
 
 import { useParams } from "react-router-dom"
-import './About.css'
+import './about.css'
 
 import { Tilt } from 'react-tilt'
 

@@ -1,8 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 // import Data from '../Data'
-import Card from './Card'
-import './Home.css'
+import Card from './card'
+import './home.css'
 
 const Home = ({search,handleClick,data}) => {
   return (

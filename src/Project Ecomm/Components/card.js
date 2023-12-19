@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Card.css'
+import './card.css'
 import {Link} from 'react-router-dom'
 
 const Card = ({item,handleClick}) => {

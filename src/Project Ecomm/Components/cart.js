@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Cart.css'
+import './cart.css'
 import GooglePayButton from '@google-pay/button-react'
 
 const Cart = ({cart,setCart}) => {
