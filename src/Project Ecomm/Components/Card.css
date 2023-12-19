@@ -4,9 +4,22 @@
     border: 2px solid black;
     text-align: center;
 }
-button{
-    background: orange;
-    border: 1px solid black;
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.addcart {
+    background: green;
+    border: 1px solid rgb(70, 5, 5);
+    color: white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 2px;
+}
+.readmore{
+    background: red;
+    border: 1px solid rgb(70, 5, 5);
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
 }

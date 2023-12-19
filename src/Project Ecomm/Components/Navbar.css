@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     height: auto;
     width: 100%;
     background-color: black;
@@ -14,16 +14,27 @@
 }
 input{
     flex: 1; 
-    padding: 8px;
+    padding: 8px 100px 8px 100px;
     outline: none;
     border: none;
     text-align: center;
+    background: transparent;
+    border-bottom: 3px solid red;
+    color: white;
 }
 .Artbtn{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 0px 10px 0px 10px;
+}
+.navbtn{
+    padding: 10px 30px 10px 30px;
+}
+.navbtn:hover{
+    background: green;
+    transition: all 1s ease-in;
 }
 @media screen and (max-width: 500px) {
     .navart{
@@ -53,4 +64,68 @@ input{
         align-items: center;
     }
 
+} */
+
+/* Base Styles */
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.navart {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    outline: none;
+    border: none;
+    text-align: center;
+    background: transparent;
+    border-bottom: 3px solid red;
+    color: white;
+}
+
+.Artbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbtn {
+    padding: 10px;
+    color: white;
+    transition: background 0.5s ease-in-out;
+}
+.navbtn:hover{
+    transition: all 1s ease-in;
+    color: red;
+    background: green;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 500px) {
+    .navart {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Artbtn {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -12,8 +12,8 @@ const Card = ({item,handleClick}) => {
       <p>{price}</p>
       <p>{rating.rate}⭐</p>
       <br />
-      <button onClick={()=>handleClick(item)}>Add Cart</button>
-      <button onClick={()=>setOpen(!open)}>Read More</button>
+      <button className='addcart' onClick={()=>handleClick(item)}>Add Cart</button>
+      <button className='readmore' onClick={()=>setOpen(!open)}>Read More</button>
       {open && (
         <div>
           <p>{description}</p>

@@ -8,8 +8,9 @@
     gap: 10px;
 }
 button{
-    background: orange;
+    background: rgb(92, 90, 90);;
     border: 1px solid black;
+    color: white;
     padding: 10px;
     border-radius: 10px;
     font-weight: 600;

@@ -8,7 +8,10 @@ const Home = ({search,handleClick,data}) => {
   return (
     <div>
         <main className="main">
-            <img src="https://miro.medium.com/v2/resize:fit:1204/0*UyQVg5JSs3a4OOeg" height={'600px'} width={'100%'} alt="" />
+            <img src="https://image.spreadshirtmedia.com/content/f_auto,q_80/v2/CMS/Startpage/Hero/christmas2023v2/Xmas23_HP2_desktop_NA/XmasHP2_23_HPteaser_desktop_NA.png" height={'600px'} width={'100%'} alt="" />
+        </main>
+        <main className="secimage">
+        <img src="https://images01.nicepagecdn.com/page/47/81/website-template-preview-47818.webp" alt="" width={'100%'}/>
         </main>
         <Carousel>
                 {data.filter((item)=>item.category.toLocaleLowerCase().includes(search)).map((item)=>{

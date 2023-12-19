@@ -1,4 +1,4 @@
-table {
+/* table {
     width: auto;
     border-collapse: collapse;
     margin-top: 150px;
@@ -24,4 +24,76 @@ th, td {
     td {
         display: block; 
     }
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    margin-top: 20px;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.delete{
+    background: red;
+}
+@media screen and (max-width: 500px) {
+    th, td {
+        padding: 0.8em;
+    }
+
+    th {
+        display: none;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        margin-top: 20px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
